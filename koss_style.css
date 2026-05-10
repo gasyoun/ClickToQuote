@@ -1,3 +1,9 @@
+p.stk.copied,
+p.sa.copied {
+  outline: 2px solid #4caf50;
+  transition: outline 0.2s ease;
+}
+
 @font-face {
     font-family: Sahitya,Siddhanta,Sanskrit 2003,Santipur OT,Adobe Devanagari;;
     src: url(./fonts/Sahitya-Regular.ttf);
@@ -27,9 +33,9 @@ body {
    }
 
 h1 {
-  color: #a52a2a; /* Цвет заголовка */
-  font-size: 24pt; /* Размер шрифта в пунктах */
-  font-weight: normal; /* Нормальное начертание текста  */
+  color: #a52a2a; /* Г–ГўГҐГІ Г§Г ГЈГ®Г«Г®ГўГЄГ  */
+  font-size: 24pt; /* ГђГ Г§Г¬ГҐГ° ГёГ°ГЁГґГІГ  Гў ГЇГіГ­ГЄГІГ Гµ */
+  font-weight: normal; /* ГЌГ®Г°Г¬Г Г«ГјГ­Г®ГҐ Г­Г Г·ГҐГ°ГІГ Г­ГЁГҐ ГІГҐГЄГ±ГІГ   */
 }
 
 p
@@ -41,47 +47,47 @@ p
 }
 
 table {
-    /*width: 100%;  Ширина таблицы */
-    border-collapse: collapse; /*  Убираем двойные линии между ячейками */
+    /*width: 100%;  ГГЁГ°ГЁГ­Г  ГІГ ГЎГ«ГЁГ¶Г» */
+    border-collapse: collapse; /*  Г“ГЎГЁГ°Г ГҐГ¬ Г¤ГўГ®Г©Г­Г»ГҐ Г«ГЁГ­ГЁГЁ Г¬ГҐГ¦Г¤Гі ГїГ·ГҐГ©ГЄГ Г¬ГЁ */
     table-layout: auto
    }
    td, th {
-    padding: 4px; /* Поля в ячейках */
-    text-align: center; /* Выравнивание */
-    /*font-size: 14pt; /* Размер текста */
+    padding: 4px; /* ГЏГ®Г«Гї Гў ГїГ·ГҐГ©ГЄГ Гµ */
+    text-align: center; /* Г‚Г»Г°Г ГўГ­ГЁГўГ Г­ГЁГҐ */
+    /*font-size: 14pt; /* ГђГ Г§Г¬ГҐГ° ГІГҐГЄГ±ГІГ  */
     font-style: normal;
     padding-left: 9px;
-    /*border: 1px solid #333333;  Граница между ячейками */
+    /*border: 1px solid #333333;  ГѓГ°Г Г­ГЁГ¶Г  Г¬ГҐГ¦Г¤Гі ГїГ·ГҐГ©ГЄГ Г¬ГЁ */
    }
    th {
-    background: #000080; /* Цвет фона строки заголовка */
-    color: #ffe; /* Цвет текста */
-    text-align: center; /* Выравнивание */
-    /*font-size: 14pt; /* Размер текста */
+    background: #000080; /* Г–ГўГҐГІ ГґГ®Г­Г  Г±ГІГ°Г®ГЄГЁ Г§Г ГЈГ®Г«Г®ГўГЄГ  */
+    color: #ffe; /* Г–ГўГҐГІ ГІГҐГЄГ±ГІГ  */
+    text-align: center; /* Г‚Г»Г°Г ГўГ­ГЁГўГ Г­ГЁГҐ */
+    /*font-size: 14pt; /* ГђГ Г§Г¬ГҐГ° ГІГҐГЄГ±ГІГ  */
    }
 p.sa {
     line-height: 1.5em;
-    color: #ff2400; /* Цвет текста */
+    color: #ff2400; /* Г–ГўГҐГІ ГІГҐГЄГ±ГІГ  */
     font-style: normal;
-    font-size: 20pt; /* Размер текста */
+    font-size: 20pt; /* ГђГ Г§Г¬ГҐГ° ГІГҐГЄГ±ГІГ  */
     font-family: "Sanskrit 2003";
 }
 p.iast {
     font-weight: bold
-    font-size: 18pt; /* Размер текста */
+    font-size: 18pt; /* ГђГ Г§Г¬ГҐГ° ГІГҐГЄГ±ГІГ  */
 }
 p.hk {
-    color: gray; /* Цвет текста */
+    color: gray; /* Г–ГўГҐГІ ГІГҐГЄГ±ГІГ  */
     font-weight: bold
-    font-size: 14pt; /* Размер текста */
+    font-size: 14pt; /* ГђГ Г§Г¬ГҐГ° ГІГҐГЄГ±ГІГ  */
 }
 p.stk {
-    font-size: 18pt; /* Размер текста */
+    font-size: 18pt; /* ГђГ Г§Г¬ГҐГ° ГІГҐГЄГ±ГІГ  */
     font-family: "Charis-Bold";
 }
 a.sa {
     line-height: 1.5em;
     font-style: normal;
-    font-size: 18pt; /* Размер текста */
+    font-size: 18pt; /* ГђГ Г§Г¬ГҐГ° ГІГҐГЄГ±ГІГ  */
     font-family: "Sanskrit 2003";
 }
