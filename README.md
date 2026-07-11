@@ -1,6 +1,8 @@
 # ClickToQuote
 
-A lightweight JavaScript utility that lets users click any dictionary entry to instantly copy a formatted bibliography citation to their clipboard. Built for the digital HTML edition of the *Kossovich Russian-Sanskrit Dictionary*.
+_Created: 14-06-2026 · Last updated: 11-07-2026_
+
+A lightweight JavaScript utility that lets users click any dictionary entry to instantly copy a formatted bibliography citation to their clipboard. Built for the digital HTML edition of the *Kossovich Sanskrit–Russian Dictionary* ([`kossovich_dict.htm`](https://github.com/gasyoun/ClickToQuote/blob/master/kossovich_dict.htm), 2016 reprint).
 
 ---
 
@@ -17,7 +19,7 @@ A lightweight JavaScript utility that lets users click any dictionary entry to i
 
 ## Installation
 
-1. Copy `scripts/clicktoquote.js` and the font files into your project.
+1. Copy [`scripts/clicktoquote.js`](https://github.com/gasyoun/ClickToQuote/blob/master/scripts/clicktoquote.js) and the [font files](https://github.com/gasyoun/ClickToQuote/tree/master/fonts) into your project.
 
 2. Add the script to your HTML `<head>`:
 
@@ -78,7 +80,7 @@ The script walks the DOM to find the column number and both script forms, then a
 | Short | `(Коссович 2016: 42)` |
 | Long | `देव deva // Коссович К. А. Санскрито-русский словарь / … — стлб. 42."` |
 
-Templates are defined as constants at the top of `clicktoquote.js` and are easy to adapt for other dictionaries or citation styles.
+Templates are defined as constants at the top of [`clicktoquote.js`](https://github.com/gasyoun/ClickToQuote/blob/master/scripts/clicktoquote.js) and are easy to adapt for other dictionaries or citation styles.
 
 ---
 
@@ -104,4 +106,6 @@ ClickToQuote/
 
 ## License
 
-MIT — see [LICENSE](LICENSE) for details.
+MIT — see [LICENSE](https://github.com/gasyoun/ClickToQuote/blob/master/LICENSE) for details. Copyright (c) 2020 Lidia Zaikova, the original author; this repository is a maintained fork of [lidazaikova/ClickToQuote](https://github.com/lidazaikova/ClickToQuote).
+
+_Dr. Mārcis Gasūns_
